@@ -16,7 +16,7 @@ def greeting_node(state: AgentState) -> AgentState:
 
 graph = StateGraph(AgentState)
 
-graph.add_node("greeter , greeting_node")
+graph.add_node("greeter", greeting_node)
 
 graph.set_entry_point("greeter")
 graph.set_finish_point("greeter")
